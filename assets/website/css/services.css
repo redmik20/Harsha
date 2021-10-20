@@ -1,0 +1,253 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+* {
+	transition: none;
+}
+/*-- services page --*/
+h4.group.card-title a {
+    font-size: 20px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+h4.group.card-title a:hover {
+    color:#F87B9D;
+    border-bottom: 1px solid #F87B9D;
+}
+.view-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.thumbnail {
+    margin-bottom: 30px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: none;
+    border: 1px solid rgba(165, 165, 165, 0.17);
+}
+.img-event img {
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+}
+.img-event img:hover {
+    -webkit-filter: brightness(0.70);
+    filter: brightness(0.70);
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+}
+.real-list-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.real-list-icon span.fa {
+    color: #000;
+    font-size: 1.3em;
+}
+.real-list-desc p {
+    color: #767676;
+    line-height: 30.2px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+.real-list-grid {
+    margin-top: 2.5em;
+}
+.real-list-desc h5 {
+    color: #222;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.title-section h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 400;
+    color: #000;
+}
+.real-about-grids {
+    background: #eee;
+    padding: 2em;
+}
+.real-list-icon span.fa {
+    color: #ffffff;
+    font-size: 1em;
+    background: #6e4ff6;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+}
+.real-about-grids span {
+    color: #000;
+    font-size: 3em;
+}
+.real-about-grids h4 span {
+    width: 40px;
+    height: 2px;
+    background: #333;
+    display: inline-block;
+    margin-left: 5px;
+}
+.real-about-grids h4 {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    margin: 1.5em 0;
+    color: #000;
+    font-weight: 400;
+}
+.real-service-grids h4 {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    margin: 1.5em 0 0;
+    color: #333;
+    font-weight: 700;
+}
+.real-service-grids {
+    background: #eee;
+}
+.real-about-grids span {
+    font-size: 3em;
+    color: #25e0ff;
+}
+.about-grid-real.py-5 {
+    background: rgba(0, 255, 177, 0.11);
+}
+.about-grid-real .card {
+    background: transparent;
+    border: none;
+}
+.about-grid-real {
+    background: url('../images/service.jpg') no-repeat 0px 0px;
+    background-size: cover;
+}
+.abt_card_btn {
+    font-size: 1.2em;
+    color: #333 !important;
+}
+.left-about-bg {
+    background: #fff;
+    min-height: 600px;
+}
+.last-about-bg {
+    background: #fff;
+    min-height: 600px;
+}
+.right-about-bg {
+    background: #fff;
+    min-height: 600px;
+}
+.about-grid-real i {
+    color: #b3b0b0;
+    font-size: 4em;
+}
+.about-sub-title {
+    margin: 1em 0;
+    font-weight: 700;
+    color: #000;
+    font-size: 1.75rem;
+}
+span.num-list {
+    font-size: 2em;
+    color: #06a598;
+}
+.real-list-desc {
+    margin-left: 1.5em;
+    max-width: 375px;
+}
+/* single */
+.single-left h5 a {
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 1px solid #dedede;
+    color: #343a40;
+}
+.single-left2-left li a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.admin {
+    background: #eee;
+}
+.single-left1 img {
+    margin: 0em 0 2em;
+}
+/* //single */
+/*-- /services page--*/
+
+
+/* responsive code */
+
+@media screen and (max-width:992px) {
+	/*-- services page --*/
+	.about-grid-real {
+		min-height: 350px;
+	}
+	/*-- /services page --*/
+}
+
+@media screen and (max-width:800px) {
+	/*-- services single page --*/
+	.single-left h5 a {
+		font-size: 1.4rem;
+	}
+	/*-- /services single page --*/
+	
+}
+@media screen and (max-width:700px) {	
+	/*-- services page --*/
+	.real-list-grid {
+		margin-top: 2em;
+	}
+	/*-- /services page --*/
+}
+@media screen and (max-width:500px) {
+	/*-- services page --*/
+	.real-list-grid {
+		margin-top: 1em;
+	}
+	/*-- /services page --*/
+}
+@media screen and (max-width:480px) {
+	/*-- services page --*/
+	.real-list-desc {
+		margin-left: 0.5em;
+		max-width: 370px;
+	}
+	.head h3 {
+		font-size: 25px;
+	}
+	/*-- /services page --*/
+}
+@media screen and (max-width:440px) {
+	/*-- services page --*/
+	.real-list-desc p {
+		line-height: 26.2px;
+		font-size: 16px;
+	}
+	/*-- services page --*/
+}

@@ -1,0 +1,103 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+* {
+	transition: none;
+}
+/*-- error page --*/
+.error_content span.fa.fa-frown-o {
+    font-size: 10rem;
+    color: #F87B9D;
+}
+
+section.error-page {
+    min-height: 100vh;
+}
+
+.error_content h2 {
+    font-size: 50px;
+    color: #000;
+    font-weight: 600;
+}
+
+.error_content p {
+    font-size: 23px;
+    color: #757575;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto;
+}
+
+a.b-home {
+    background: #f87b9d;
+    padding: 12px 22px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 2em;
+}
+
+a.b-home:hover {
+    background: #000;
+}
+
+/*-- //error page --*/
+
+
+/*-- responsive code --*/
+@media screen and (max-width:900px) {
+	/*-- 404 page --*/
+	.error_content span.fa.fa-frown-o {
+		font-size: 8rem;
+	}
+	.error_content h2 {
+		font-size: 40px;
+	}
+	.error_content p {
+		font-size: 21px;
+		line-height: 33px;
+	}
+	a.b-home {
+		margin-top: 1em;
+	}
+	/*-- /404 page --*/	
+}
+@media screen and (max-width:700px) {	
+	/*-- 404 page --*/
+	.error_content span.fa.fa-frown-o {
+		font-size: 7rem;
+	}
+	.error_content h2 {
+		font-size: 35px;
+	}
+	.error_content p {
+		font-size: 18px;
+		width: 90%;
+	}
+	a.b-home {
+		margin-top: 1em;
+	}
+	/*-- /404 page --*/
+}
+@media screen and (max-width:436px) {
+	/*-- 404 page --*/
+	.error_content span.fa.fa-frown-o {
+		font-size: 6rem;
+	}
+	.error_content h2 {
+		font-size: 30px;
+	}
+	.error_content p {
+		font-size: 16px;
+		width: 100%;
+	}
+	a.b-home {
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+	/*-- /404 page --*/
+}

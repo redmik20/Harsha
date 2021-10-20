@@ -1,0 +1,99 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+* {
+	transition: none;
+}
+/*-- faq --*/
+h3.real-head {
+    color: #00a59c;
+    font-size: 35px;
+    margin: 0 0 35px 0;
+}
+.faq {
+    padding-bottom: 40px;
+}
+
+.faq-list dd {
+    position: relative;
+}
+dt.faq-list_h:nth-child(1) {
+    margin-top: 0;
+}
+.faq-list_h {
+    position: relative;
+    margin: 45px 0 15px;
+    padding: 0 0 0 28px;
+    background: none;
+    font-weight: normal;
+}
+
+p.m_13 {
+    padding-left: 30px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: #7b7b7b;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.faq-list .marker1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+
+h5.marker_head {
+    font-size: 22px;
+    color: #000;
+}
+
+p.last_2 {
+    margin-bottom: 0;
+}
+
+/*-- //faq --*/
+
+
+/*-- responsive code --*/
+@media screen and (max-width:900px) {
+	/*-- faq page --*/	
+	h5.marker_head {
+		font-size: 20px;
+	}
+	p.m_13 {
+		font-size: 15.5px;
+		line-height: 26px;
+		padding-left: 15px;
+	}
+	.faq-list_h {
+		padding: 0 0 0 15px;
+	}
+	/*-- /faq page --*/
+}
+@media screen and (max-width:568px) {
+	/*-- faq page --*/
+	.help h5 {
+		font-size: 22px;
+	}
+	/*-- /faq page --*/
+}
+@media screen and (max-width:480px) {
+	/*-- faq page --*/	
+	h5.marker_head {
+		font-size: 19px;
+		line-height: 28px;
+	}
+	p.m_13 {
+		font-size: 15px;
+		line-height: 25px;
+	}
+	/*-- /faq page --*/
+}

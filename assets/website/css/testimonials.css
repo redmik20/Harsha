@@ -1,0 +1,359 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+* {
+	transition: none;
+}
+/* testimonials */
+.head-bg {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.head-bg h6 {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.head-bg h3 {
+    font-size: 30px;
+    color: #fff;
+    margin: 0.5rem 0 2rem;
+    font-weight: 700;
+    line-height: 40.5px;
+}
+
+.testimonials {
+    background: url(../images/slide3.jpg) no-repeat 0px 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content-slider {
+    width: 100%;
+}
+
+.slider {
+    max-width: 680px;
+    margin: 40px auto 0;
+    overflow: visible;
+    position: relative;
+}
+
+.mask {
+    overflow: hidden;
+    height: 320px;
+}
+
+.slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.slider li {
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    top: -325px;
+    list-style: none;
+}
+
+.slider .quote {
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.slider .source {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 1rem;
+    color: #076ac1;
+    font-style: italic;
+}
+
+.slider li.anim1 {
+    animation: cycle 15s linear infinite;
+}
+
+.slider li.anim2 {
+    animation: cycle2 15s linear infinite;
+}
+
+.slider li.anim3 {
+    animation: cycle3 15s linear infinite;
+}
+
+.slider li.anim4 {
+    animation: cycle4 15s linear infinite;
+}
+
+.slider li.anim5 {
+    animation: cycle5 15s linear infinite;
+}
+
+.slider:hover li {
+    animation-play-state: paused;
+}
+
+@keyframes cycle {
+    0% {
+        top: 0px;
+    }
+
+    4% {
+        top: 0px;
+    }
+
+    16% {
+        top: 0px;
+        opacity: 1;
+        z-index: 0;
+    }
+
+    20% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    21% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    50% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    92% {
+        top: -325px;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    96% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes cycle2 {
+    0% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    16% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    20% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    24% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    36% {
+        top: 0px;
+        opacity: 1;
+        z-index: 0;
+    }
+
+    40% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    41% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    100% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes cycle3 {
+    0% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    36% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    40% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    44% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    56% {
+        top: 0px;
+        opacity: 1;
+        z-index: 0;
+    }
+
+    60% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    61% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    100% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes cycle4 {
+    0% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    56% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    60% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    64% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    76% {
+        top: 0px;
+        opacity: 1;
+        z-index: 0;
+    }
+
+    80% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    81% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    100% {
+        top: -325px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes cycle5 {
+    0% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    76% {
+        top: -325px;
+        opacity: 0;
+    }
+
+    80% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    84% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    96% {
+        top: 0px;
+        opacity: 1;
+        z-index: 0;
+    }
+
+    100% {
+        top: 325px;
+        opacity: 0;
+        z-index: 0;
+    }
+}
+/* //testimonials */
+
+
+/*-- responsive code --*/
+@media screen and (max-width:1080px) {	
+	.slider .quote {
+		font-size: 18px;
+		line-height: 30px;
+		color: #fff;
+		font-weight: 300;
+	}
+	.slider .source {
+		font-size: 30px;
+	}
+	.mask {
+		height: 280px;
+	}
+}
+@media screen and (max-width:500px) {
+	.slider .source {
+		font-size: 26px;
+	}
+}
+@media screen and (max-width:480px) {
+	.slider .quote {
+		font-size: 17px;
+		line-height: 28px;
+	}
+}
+@media screen and (max-width:436px) {
+	.mask {
+		height: 300px;
+	}
+}

@@ -1,0 +1,141 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+* {
+	transition: none;
+}
+
+/*-- portfolio section --*/
+
+
+.cursor {
+    cursor: pointer;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*-- /portfolio section ends --*/
+/*-- portfolio-details --*/
+
+.instrument {
+    padding: 70px 0;
+}
+
+.ins-name {
+    margin: 0px 0 35px 0;
+}
+
+.ins-name h3 {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ins-name h6 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #f87b9d;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.ins-name p {
+    margin: 20px 0 20px;
+}
+
+p.left {
+    float: left;
+    font-size: 14px;
+    color: #000;
+    margin-right: 5%;
+    width: 55%;
+    font-weight: 600;
+}
+
+p.right {
+    font-size: 14px;
+    float: left;
+    color: #949494;
+}
+
+.span1 {
+    margin: 18px 0;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.span4 {
+    border-bottom: 1px solid #Eee;
+    padding-bottom: 18px;
+}
+
+.ins-image {
+    margin-top: 30px;
+}
+
+.ins-image img {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 6px;
+}
+
+.real-related-properties {
+    background: #f4f4f4;
+}
+
+h3.real-heading {
+    margin-bottom: 25px;
+    color: #F87B9D;
+    font-size: 30px;
+}
+
+.real-related-property a:hover {
+    color: #F87B9D;
+}
+
+.real-related-property a {
+    margin-top: 10px;
+    font-size: 19px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.real-related-property a img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.real-related-property a img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transform: 0.3s ease-in-out;
+    -o-transform: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+/*-- //portfolio-details --*/
+
